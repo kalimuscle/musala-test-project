@@ -19,12 +19,23 @@ Each peripheral device has:
 
 ## CLI Commands
 
-``` bash
+``` Front end
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
+```
+
+``` Back end
+# go to /server
+cd server
+
+# install dependencies
+npm install
+
+# run server
+node index.js
 ```
 
 # Consideraations
