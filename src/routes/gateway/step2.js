@@ -160,7 +160,7 @@ const Step2 = ({ vendor,date, status, devices, onChangeVendor, onChangeStatus, o
 
 							<div class="relative flex items-start">
 								<div class="flex items-center h-5">
-									<input id="comments" value={status} onChange={()=>onChangeStatus(!status)} aria-describedby="comments-description" name="comments" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"/>
+									<input id="comments" checked={status} onChange={()=>onChangeStatus(!status)} aria-describedby="comments-description" name="comments" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"/>
 								</div>
 								<div class="ml-3 text-sm">
 									<label for="comments" class="font-medium text-gray-700">Status</label>
