@@ -13,6 +13,7 @@ const App = () => (
 		<Header />
 		<Router>
 			<Home path="/" />
+			<Home path="/home" />
 			<Detail path="/detail/:_id" />
 			<Gateway path="/gateway/" action="create"/>
 			<Gateway path="/gateway/:action" />
